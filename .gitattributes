@@ -1,0 +1,47 @@
+# Handle line endings
+* text=auto eol=lf
+
+# These files should always be normalized and converted to LF on checkout.
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Image files are binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg binary
+*.ico binary
+
+# Font files are binary
+*.woff binary
+*.woff2 binary
+*.eot binary
+*.ttf binary
+*.otf binary
+
+# Audio files are binary
+*.mp3 binary
+*.wav binary
+
+# Video files are binary
+*.mp4 binary
+*.mov binary
+
+# PDF files are binary
+*.pdf binary
+
+# Archive files are binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.rar binary
+*.7z binary
